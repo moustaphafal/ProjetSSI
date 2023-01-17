@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta name="color-scheme" content="light dark"> -->
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+
+        <script src="js/index.js"></script>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+        <script src="cordova.js"></script>
+
+        <title>Mobile Money</title>
+    </head>
+    <body>
+        <div data-role="main" class="ui-content">
+            <div data-role="header">
+                <h1>Mobile Money</h1>
+            </div>
+            <br/>
+            <div class="ui-corner-all custom-corners">
+                <div class="ui-bar ui-bar-a">
+                    <h3>Votre solde actuel est :</h3>
+                </div>
+                <div class="ui-body ui-body-a">
+                    <h1>
+                        <b>19.000</b> <span>XOF</span> 
+                    </h1>
+                </div>
+            </div>
+            <a href="#" data-role="button" data-icon="arrow-u"> Faire un transfert</a>
+
+            <ul data-role="listview" id="historiqueOperations" data-inset="true">
+                <li>
+                    <a>
+                        <img src="img/telecharger.png"/>
+                        <h1>Vous avez reçu 3.000 fcfa</h1>
+                        <p>de <b>Aliou Baldé</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/telecharger.png"/>
+                        <h1>Vous avez reçu 12.000 fcfa</h1>
+                        <p>de <b>Moussa Fashion</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/telecharger.png" alt="image non chargée"/>
+                        <h1>Vous avez reçu 4.000 fcfa</h1>
+                        <p>de <b>Moxtar Thiam</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <img src="img/avion-en-papier.png" alt="image non chargée"/>
+                        <h1>Vous avez envoyé 20.000 fcfa</h1>
+                        <p>à <b>Rokhaya Sembène</b></p>
+                    </a>
+                </li>
+            </ul>
+            
+            <div data-role="footer" data-position="fixed">
+                <h3> Groupe 9  ManSSI - Copyright &copy; 2023 </h3>
+            </div>
+        </div>
+    </body>
+</html>

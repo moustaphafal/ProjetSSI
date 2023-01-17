@@ -1,0 +1,1241 @@
+2023.01.02 00:40:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.02 00:41:01 INFO  logging to file D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\metals.log
+2023.01.02 00:41:01 INFO  Started: Metals version 0.11.9+120-c8475f05-SNAPSHOT in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/moust/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.4/scribe-slf4j_2.13-3.10.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.02 00:41:05 INFO  time: initialize in 4.15s
+2023.01.02 00:41:06 WARN  Build server is not auto-connectable.
+2023.01.02 00:41:06 WARN  no build tool detected in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+janv. 02, 2023 12:41:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2023.01.02 01:56:17 INFO  shutting down Metals
+2023.01.03 05:27:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.03 05:27:03 INFO  logging to file D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\metals.log
+2023.01.03 05:27:03 INFO  Started: Metals version 0.11.9+120-c8475f05-SNAPSHOT in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/moust/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.4/scribe-slf4j_2.13-3.10.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.03 05:27:07 INFO  time: initialize in 4.55s
+2023.01.03 05:27:09 WARN  Build server is not auto-connectable.
+2023.01.03 05:27:09 WARN  no build tool detected in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.03 05:27:09 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java
+2023.01.03 05:27:10 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Operation.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:12: error: ';' expected
+    public Operation()
+                      ^
+1 error
+2023.01.03 05:27:32 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java
+2023.01.03 05:27:34 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Operation.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:7: error: cannot find symbol
+    private Utilisateur expediteur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:8: error: cannot find symbol
+    private Utilisateur destinataire ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+2 errors
+2023.01.03 05:28:53 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Operation.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:7: error: cannot find symbol
+    private Utilisateur expediteur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:8: error: cannot find symbol
+    private Utilisateur destinataire ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+2 errors
+2023.01.03 05:28:53 INFO  time: code lens generation in 1.42s
+2023.01.03 05:36:04 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Operation.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:7: error: cannot find symbol
+    private Utilisateur expediteur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:8: error: cannot find symbol
+    private Utilisateur destinataire ;
+            ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:13: error: cannot find symbol
+    public Operation(String id, Utilisateur expediteur, Utilisateur destinataire, int montant, Date dateOperation) {
+                                ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:13: error: cannot find symbol
+    public Operation(String id, Utilisateur expediteur, Utilisateur destinataire, int montant, Date dateOperation) {
+                                                        ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:22: error: cannot find symbol
+    public Utilisateur getDestinataire() { return destinataire; }
+           ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:23: error: cannot find symbol
+    public Utilisateur getExpediteur() { return expediteur; }
+           ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:28: error: cannot find symbol
+    public void setExpediteur(Utilisateur exp){ this.expediteur = exp ;}
+                              ^
+  symbol:   class Utilisateur
+  location: class Operation
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Operation.java:29: error: cannot find symbol
+    public void setDestinataire(Utilisateur dest){ this.destinataire = dest ;}
+                                ^
+  symbol:   class Utilisateur
+  location: class Operation
+8 errors
+2023.01.04 05:14:25 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:14:25 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:6: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:13: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayList<Operation> historique(){
+           ^
+  symbol:   class ArrayList
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayList<Operation> historique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+4 errors
+2023.01.04 05:14:27 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 05:14:28 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:15: error: cannot find symbol
+    public String getId() {return id;}
+                                  ^
+  symbol:   variable id
+  location: class Utilisateur
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:16: error: cannot find symbol
+    public void setId(String id) {this.id = id;}
+                                      ^
+  symbol: variable id
+2 errors
+2023.01.04 05:14:55 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Historique.java
+2023.01.04 05:14:56 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Historique.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+janv. 04, 2023 5:15:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+janv. 04, 2023 5:15:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getCurrentTokenSource(PublicScanner.java:496)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.swallowUntilSemicolon$1(JavaFoldingRangeExtractor.scala:52)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gatherImportLines$1(JavaFoldingRangeExtractor.scala:76)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:123)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1773)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.01.04 05:17:02 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+janv. 04, 2023 5:17:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 459
+janv. 04, 2023 5:18:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 622
+2023.01.04 05:20:55 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:20:55 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:13: error: ';' expected
+    public void listerHistorique()
+                                  ^
+1 error
+2023.01.04 05:21:37 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:21:37 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:6: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:7: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+            ^
+  symbol:   class ArrayList
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:7: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:15: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:22: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:26: error: cannot find symbol
+    public ArrayList<Operation> historique(){
+           ^
+  symbol:   class ArrayList
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:26: error: cannot find symbol
+    public ArrayList<Operation> historique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:7: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+                                                  ^
+  symbol:   class ArrayList
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:7: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+                                                            ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:13: error: incompatible types: unexpected return value
+    public void listerHistorique(){return this.historique ;}
+                                              ^
+10 errors
+2023.01.04 05:23:09 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:23:09 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:11: error: invalid method declaration; return type required
+    public initialiserPortemonnaie(){
+           ^
+1 error
+2023.01.04 05:25:25 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 05:25:55 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 05:25:56 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:7: error: cannot find symbol
+    private Portemonnaie pmonnaie;
+            ^
+  symbol:   class Portemonnaie
+  location: class Utilisateur
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:16: error: cannot find symbol
+    public String getId() {return id;}
+                                  ^
+  symbol:   variable id
+  location: class Utilisateur
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:17: error: cannot find symbol
+    public void setId(String id) {this.id = id;}
+                                      ^
+  symbol: variable id
+3 errors
+2023.01.04 05:26:19 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\platforms\browser\www\java\models\Utilisateur.java
+2023.01.04 05:26:19 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 05:26:19 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/platforms/browser/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\platforms\browser\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\platforms\browser\www\java\models\Utilisateur.java:15: error: cannot find symbol
+    public String getId() {return id;}
+                                  ^
+  symbol:   variable id
+  location: class Utilisateur
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\platforms\browser\www\java\models\Utilisateur.java:16: error: cannot find symbol
+    public void setId(String id) {this.id = id;}
+                                      ^
+  symbol: variable id
+2 errors
+2023.01.04 05:26:20 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:7: error: cannot find symbol
+    private Portemonnaie pmonnaie;
+            ^
+  symbol:   class Portemonnaie
+  location: class Utilisateur
+1 error
+2023.01.04 05:26:52 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 05:26:53 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:3: error: cannot find symbol
+import models.Portemonnaie;
+             ^
+  symbol:   class Portemonnaie
+  location: package models
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:9: error: cannot find symbol
+    private Portemonnaie pmonnaie;
+            ^
+  symbol:   class Portemonnaie
+  location: class Utilisateur
+2 errors
+2023.01.04 05:27:35 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:27:36 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:8: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:15: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:15: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:24: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:29: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:8: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<Operation>();
+                                                            ^
+  symbol:   class Operation
+  location: class Portemonnaie
+7 errors
+2023.01.04 05:27:57 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:27:57 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:8: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<>();
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:15: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:15: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:24: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:29: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+6 errors
+2023.01.04 05:32:14 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:32:15 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:9: error: cannot find symbol
+    private List<Operation> historique = new ArrayList<>();
+                 ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:16: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:16: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:25: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:30: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+6 errors
+2023.01.04 05:34:07 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:34:08 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:9: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private List<Operation> historique = new ArrayList<>();
+                 ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:19: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:26: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:31: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+7 errors
+2023.01.04 05:34:32 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:34:33 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:5: error: cannot find symbol
+import models.Utilisateur;
+             ^
+  symbol:   class Utilisateur
+  location: package models
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:11: error: cannot find symbol
+    private List<Operation> historique = new ArrayList<>();
+                 ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:20: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:27: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:32: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+8 errors
+2023.01.04 05:34:59 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:34:59 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:34:59 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:5: error: cannot find symbol
+import models.Operation;
+             ^
+  symbol:   class Operation
+  location: package models
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:11: error: cannot find symbol
+    private List<Operation> historique = new ArrayList<>();
+                 ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+           ^
+  symbol:   class ArrayListw
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public ArrayListw<Operation> listerHistorique(){return this.historique ;}
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:20: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:27: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:32: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+8 errors
+2023.01.04 05:38:11 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\package-info.java
+2023.01.04 05:38:12 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/package-info.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI'
+
+2023.01.04 05:39:15 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\package-info.java
+2023.01.04 05:39:15 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/package-info.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java'
+
+2023.01.04 05:39:28 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\package-info.java
+2023.01.04 05:39:28 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/package-info.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java'
+
+2023.01.04 05:40:19 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\package-info.java
+2023.01.04 05:40:19 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/package-info.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+2023.01.04 05:42:05 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:42:05 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:5: error: '.' expected
+import Operation;
+                ^
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:5: error: ';' expected
+import Operation;
+                 ^
+2 errors
+2023.01.04 05:43:56 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:43:57 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:9: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private List<Operation> historique = new ArrayList<>();
+                 ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayList<Operation> listerHistorique(){return this.historique ;}
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:19: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:26: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:31: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+6 errors
+2023.01.04 05:44:34 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:44:35 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:9: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<>();
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public ArrayList<Operation> listerHistorique(){return this.historique ;}
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:19: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:26: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:31: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+6 errors
+janv. 04, 2023 5:49:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2183
+janv. 04, 2023 5:49:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2221
+janv. 04, 2023 5:49:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2319
+2023.01.04 05:50:02 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java
+2023.01.04 05:50:03 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Portemonnaie.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:9: error: cannot find symbol
+    private Utilisateur utilisateur ;
+            ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:10: error: cannot find symbol
+    private ArrayList<Operation> historique = new ArrayList<>();
+                      ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:17: error: cannot find symbol
+    public Utilisateur getUtilisateur(){ return this.utilisateur;}
+           ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:18: error: cannot find symbol
+    public void setUtilisateur(Utilisateur user){ utilisateur = user ;}
+                               ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:23: error: cannot find symbol
+    public ArrayList<Operation> listerHistorique(){return this.historique ;}
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:28: error: cannot find symbol
+    public boolean ajouterOperation(Operation op){
+                                    ^
+  symbol:   class Operation
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:34: error: cannot find symbol
+    public boolean envoyerArgent(Utilisateur dest, int montant){
+                                 ^
+  symbol:   class Utilisateur
+  location: class Portemonnaie
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Portemonnaie.java:39: error: cannot find symbol
+    public ArrayList<Operation> getHistorique(){
+                     ^
+  symbol:   class Operation
+  location: class Portemonnaie
+8 errors
+2023.01.04 16:09:58 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java
+2023.01.04 16:09:59 INFO  shutting down Metals
+2023.01.04 16:10:00 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/ProjetSSI/www/java/models/Utilisateur.java. Output:
+semanticdb-javac: unknown flag '1\Sécurité'
+
+semanticdb-javac: unknown flag 'des'
+
+semanticdb-javac: unknown flag 'SI\Ateliers\Projet_final\ProjetSSI\www\java\models'
+
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\www\java\models\Utilisateur.java:3: error: cannot find symbol
+import models.Portemonnaie;
+             ^
+  symbol:   class Portemonnaie
+  location: package models
+1 error
+2023.01.05 05:24:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:24:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:24:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:24:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:24:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:24:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:24:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:24:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:25:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\ProjetSSI\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:25:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/ProjetSSI
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+

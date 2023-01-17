@@ -1,0 +1,15 @@
+
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Î‚ê€şÿÿÿÿ8ÍîÄÚ×0
+
+java:S1319'"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤ˆ¬±8øÑ—ë×0
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(¢«ßìùÿÿÿÿ8ŠÒ—ë×0
+U
+java:S1172""8Remove these unused method parameters "dest", "montant".(º¸‰‘8˜ı•Ú×0
+T
+java:S1135#"2Complete the task associated to this TODO comment.(‹Õö±ûÿÿÿÿ8™ı•Ú×0
+T
+java:S1135("2Complete the task associated to this TODO comment.(°õíüùÿÿÿÿ8›ı•Ú×0
+C
+java:S1068"&Remove this unused "id" private field.(æ¨ç†8âîÄÚ×0

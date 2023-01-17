@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "350776448015",
+    "project_id": "mobile-money-3e68a",
+    "storage_bucket": "mobile-money-3e68a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350776448015:android:cc91c89ac620a6b5507f7a",
+        "android_client_info": {
+          "package_name": "sn.esp.dic.manssi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350776448015-c7ubvuln2pdq6pfr3cp5o241dot4ts9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5adzsgKgR_JvKabC9cpPjI14wX9Pp2pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350776448015-c7ubvuln2pdq6pfr3cp5o241dot4ts9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,426 @@
+2023.01.05 05:23:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:23:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:23:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:23:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:23:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:23:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:23:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:23:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.05 05:23:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 05, 2023 5:24:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.06 14:57:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 06, 2023 2:58:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.06 14:58:05 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 06, 2023 2:58:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.06 14:58:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 06, 2023 2:58:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.06 14:58:17 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 06, 2023 2:58:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.06 14:58:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+janv. 06, 2023 2:58:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI.create(URI.java:852)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:158)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLanguageServer.updateWorkspaceDirectory(MetalsLanguageServer.scala:365)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$initialize$2(MetalsLanguageServer.scala:879)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 24: file:///d:/DIC3/Semestre 1/S%C3%A9curit%C3%A9 des SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 10 more
+
+2023.01.08 04:46:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\lsp.trace.json or C:\Users\moust\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2023.01.08 04:46:28 INFO  logging to file D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\.metals\metals.log
+2023.01.08 04:46:28 INFO  Started: Metals version 0.11.10+21-a3a44da3-SNAPSHOT in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/moust/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.08 04:46:35 INFO  time: initialize in 6.5s
+2023.01.08 04:46:36 WARN  Build server is not auto-connectable.
+2023.01.08 04:46:36 WARN  no build tool detected in workspace 'D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.01.08 04:46:36 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\services\Services.java
+2023.01.08 04:46:36 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\metier\PortemonnaieRepository.java
+2023.01.08 04:46:37 WARN  Running javac-semanticdb failed for file:///D:/DIC3/Semestre%201/Sécurité%20des%20SI/Ateliers/Projet_final/MobileMoneyServeur/mobilemoneyserveur/src/metier/PortemonnaieRepository.java. Output:
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\metier\PortemonnaieRepository.java:14: error: illegal start of type
+}
+^
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\metier\PortemonnaieRepository.java:14: error: reached end of file while parsing
+}
+ ^
+D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\metier\PortemonnaieRepository.java:15: error: reached end of file while parsing
+3 errors
+2023.01.08 04:46:37 INFO  time: code lens generation in 1.94s
+2023.01.10 01:06:08 WARN  no build target for: D:\DIC3\Semestre 1\Sécurité des SI\Ateliers\Projet_final\MobileMoneyServeur\mobilemoneyserveur\src\services\Services.java
+2023.01.10 01:06:09 INFO  shutting down Metals
