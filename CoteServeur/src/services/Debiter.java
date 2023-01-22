@@ -1,4 +1,4 @@
-public class Debit {
+public class Debiter {
     public static void debit(int accountNumber, double amount) {
         // Vérifiez si le compte existe
         if (Account.exists(accountNumber)) {

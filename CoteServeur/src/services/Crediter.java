@@ -1,4 +1,4 @@
-public class Credit {
+public class Crediter {
     public static void credit(int accountNumber, double amount) {
         // Vérifiez si le compte existe
         if (Account.exists(accountNumber)) {

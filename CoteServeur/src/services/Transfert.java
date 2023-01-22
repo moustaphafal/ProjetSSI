@@ -1,4 +1,4 @@
-public class Transfer {
+public class Transfert {
     public static void transfer(int senderAccountNumber, int receiverAccountNumber, double amount) {
         // Vérifiez si les comptes existent
         if (Account.exists(senderAccountNumber) && Account.exists(receiverAccountNumber)) {
@@ -7,9 +7,9 @@ public class Transfer {
             // Vérifiez si le solde est suffisant pour effectuer le transfert
             if (senderCurrentBalance >= amount) {
                 // Débitez le compte de l'expéditeur
-                Debit.debit(senderAccountNumber, amount);
+                Debiter.debit(senderAccountNumber, amount);
                 // Créditez le compte du destinataire
-                Credit.credit(receiverAccountNumber, amount);
+                Crediter.credit(receiverAccountNumber, amount);
                 // Enregistrez l'historique de transaction
                 saveTransactionHistory(senderAccountNumber, receiverAccountNumber, amount);
                 System.out.println("Transfert effectué avec succès.");
