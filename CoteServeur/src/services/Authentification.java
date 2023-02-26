@@ -6,8 +6,6 @@ import metier.Connexion;
 
 public class Authentification {
 
-    private Connection conn = Connexion.getInstance();
-
-    
-    
+    public static Connection conn = Connexion.getInstance();
+ 
 }

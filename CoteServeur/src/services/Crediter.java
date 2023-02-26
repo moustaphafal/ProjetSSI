@@ -1,12 +1,16 @@
+package services;
+
+import java.sql.SQLException;
+
 public class Crediter {
-    public static void credit(int accountNumber, double amount) {
-        // Vérifiez si le compte existe
+    public static void credit(int accountNumber, double amount) throws SQLException {
+        // Vï¿½rifiez si le compte existe
         if (Account.exists(accountNumber)) {
-            // Récupérez le solde actuel
+            // Rï¿½cupï¿½rez le solde actuel
             double currentBalance = Account.getBalance(accountNumber);
-            // Ajoutez le montant à créditer au solde actuel
+            // Ajoutez le montant ï¿½ crï¿½diter au solde actuel
             double newBalance = currentBalance + amount;
-            // Mettez à jour le solde
+            // Mettez ï¿½ jour le solde
             Account.updateBalance(accountNumber, newBalance);
         } else {
             System.out.println("Le compte n'existe pas.");
