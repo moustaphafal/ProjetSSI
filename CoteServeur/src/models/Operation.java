@@ -2,9 +2,7 @@ package models;
 
 import java.util.Date;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="Operation")
 public class Operation {
     private String id ;
     private Utilisateur expediteur ;
@@ -13,8 +11,7 @@ public class Operation {
     private Date dateOperation ;
 
     public Operation(){}
-    public Operation(String id, Utilisateur expediteur, Utilisateur destinataire, int montant, Date dateOperation) {
-        this.id = id;
+    public Operation( Utilisateur expediteur, Utilisateur destinataire, int montant, Date dateOperation) {
         this.expediteur = expediteur;
         this.destinataire = destinataire;
         this.montant = montant;

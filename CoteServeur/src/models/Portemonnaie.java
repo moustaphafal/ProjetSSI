@@ -11,6 +11,10 @@ public class Portemonnaie {
     private Utilisateur utilisateur ;
     private ArrayList<Operation> historique = new ArrayList<>();
 
+    public Portemonnaie(){ 
+        this.solde = 0;
+        this.utilisateur = new Utilisateur();
+    }
     public Portemonnaie(String id, int solde, Utilisateur user, ArrayList<Operation> historique){
         this.id = id;
         this.solde = solde;
@@ -18,10 +22,7 @@ public class Portemonnaie {
         this.historique = historique;
     }
 
-    public boolean initialiserPortemonnaie(){
-        solde = 0 ;
-        return false ;
-    }
+    
 
     public Utilisateur getUtilisateur(){ return this.utilisateur;}
     public void setUtilisateur(Utilisateur user){ utilisateur = user ;}

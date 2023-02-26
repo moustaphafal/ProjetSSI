@@ -8,11 +8,13 @@ import java.sql.SQLException;
 import metier.Connexion;
 
 public class Account {
+
+    // Connectez-vous � la base de donn�es
+    private static Connection connection =  Connexion.getInstance();
+    // Ex�cutez une requ�te pour v�rifier si le compte existe
+    private static PreparedStatement statement ;
+
     public static boolean exists(int accountNumber){
-        // Connectez-vous � la base de donn�es
-        Connection connection = Connexion.getInstance();
-        // Ex�cutez une requ�te pour v�rifier si le compte existe
-        PreparedStatement statement;
         try {
             statement = connection.prepareStatement("SELECT * FROM accounts WHERE account_number = ?");
             statement.setInt(1, accountNumber);
@@ -29,10 +31,6 @@ public class Account {
 
     public static double getBalance(int accountNumber) {
         double balance = 0;
-        // Connectez-vous à la base de données
-        Connection connection = Connexion.getInstance();
-        // Exécutez une requête pour récupérer le solde du compte donné
-        PreparedStatement statement;
         try {
             statement = connection.prepareStatement("SELECT balance FROM accounts WHERE account_number = ?");
             statement.setInt(1, accountNumber);
@@ -49,10 +47,6 @@ public class Account {
     }
     
     public static void updateBalance(int accountNumber, double newBalance) {
-        // Connectez-vous à la base de données
-        Connection connection = Connexion.getInstance();
-        // Exécutez une requête pour mettre à jour le solde du compte donné
-        PreparedStatement statement;
         try {
             statement = connection.prepareStatement("UPDATE accounts SET balance = ? WHERE account_number = ?");
             statement.setDouble(1, newBalance);
@@ -63,7 +57,7 @@ public class Account {
                 System.out.println("Une erreur est survenue lors de la mise à jour du solde du compte.");
             }
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+            System.err.println(" [Error] : "e.getMessage());
             e.printStackTrace();
         }
     }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Page de connexion</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/connexion.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Connexion</h1>
+		<form id="login-form">
+			<label for="username">Nom d'utilisateur:</label>
+			<input type="text" name="username" id="username" placeholder="Nom d'utilisateur">
+			<label for="password">Mot de passe:</label>
+			<input type="password" name="password" id="password" placeholder="Mot de passe">
+			<input type="submit" value="Se connecter">
+		</form>
+		<p>Vous n'avez pas de compte? <a href="inscription.html">Inscrivez-vous</a></p>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+	<!-- Script jQuery -->
+	<!-- <script>
+		$(document).ready(function() {
+			// Intercepter la soumission du formulaire de connexion
+			$("#login-form").submit(function(e) {
+				// Empêcher l'action par défaut du formulaire
+				e.preventDefault();
+				// Récupérer les valeurs des champs d'entrée
+				var username = $("#username").val();
+				var password = $("#password").val();
+				// Envoyer une requête AJAX pour vérifier les informations de connexion
+				$.ajax({
+					url: "login.php",
+					method: "POST",
+					data: {username: username, password: password},
+					dataType: "json",
+					success: function(response) {
+						if (response.success) {
+							// Rediriger l'utilisateur vers la page d'accueil
+							window.location.href = "home.html";
+						} else {
+							// Afficher un message d'erreur
+							$("#error-message").text(response.message);
+						}
+					},
+					error: function(xhr, status, error) {
+						console.error(xhr.responseText);
+						console.error(status + ": " + error);
+					}
+				});
+			});
+		});
+	</script> -->
+</body>
+</html>
