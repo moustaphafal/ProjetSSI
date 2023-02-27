@@ -22,7 +22,7 @@ public class Account {
             // Retourne vrai si un r�sultat est trouv�, faux sinon
             return result.next();
         } catch (SQLException e) {
-            // TODO Auto-generated catch block
+            System.err.println("[Error - Existence] : "+e.getMessage());
             e.printStackTrace();
         }
         return false; 
@@ -57,7 +57,7 @@ public class Account {
                 System.out.println("Une erreur est survenue lors de la mise à jour du solde du compte.");
             }
         } catch (SQLException e) {
-            System.err.println(" [Error] : "e.getMessage());
+            System.err.println(" [Error] : "+e.getMessage());
             e.printStackTrace();
         }
     }

@@ -1,9 +1,6 @@
 package models;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-
-@XmlRootElement(name="Utilisateur")
 public class Utilisateur {
     private String nom;
     private String prenom;
