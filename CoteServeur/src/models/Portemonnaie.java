@@ -2,9 +2,7 @@ package models;
 
 import java.util.ArrayList;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="Portemonnaie")
 public class Portemonnaie {
     private String id ;
     private int solde ;
